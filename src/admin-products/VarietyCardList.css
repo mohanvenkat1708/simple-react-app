@@ -1,0 +1,14 @@
+/* Style the add button */
+.add-button {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #00cc66; /* Green */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 999; /* Ensure it appears above other content */
+  }
+  

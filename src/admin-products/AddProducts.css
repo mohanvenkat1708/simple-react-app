@@ -1,0 +1,61 @@
+/* AddProducts.css */
+
+.add-products-section {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+
+  }
+  
+  .add-products-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .add-products-form label {
+    display: block;
+    margin-bottom: 8px;
+    color: #666;
+    font-size: 0.9rem;
+  }
+  
+  .add-products-form input[type="text"],
+  .add-products-form input[type="number"],
+  .add-products-form textarea {
+    width: 90%;
+    max-width: 300px; /* Limit input width */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 16px;
+    font-size: 0.9rem;
+    transition: border-color 0.3s ease;
+  }
+  
+  .add-products-form input[type="text"]:focus,
+  .add-products-form input[type="number"]:focus,
+  .add-products-form textarea:focus {
+    border-color: #007bff; /* Blue focus border */
+  }
+  
+  .add-products-form button {
+    padding: 12px 24px;
+    background-color: #28a745; /* Green */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 16px; /* Add gap between inputs and button */
+    transition: background-color 0.3s ease;
+    
+  }
+  
+  .add-products-form button:hover {
+    background-color: #218838; /* Darker green on hover */
+    
+  }
+  

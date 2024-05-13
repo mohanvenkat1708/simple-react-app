@@ -1,0 +1,82 @@
+/* EditableVarietyCard.css */
+
+.variety-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+    max-width: 400px; /* Set a maximum width */
+}
+
+.variety-card:last-child {
+    margin-bottom: 0; /* Remove margin from last card */
+}
+
+.variety-card:hover {
+    transform: translateY(-5px);
+}
+
+.variety-card .variety-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.variety-card .variety-card-header input[type="text"] {
+    width: calc(70% - 10px);
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.variety-card .variety-card-header p {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.variety-card .edit-button {
+    padding: 8px 16px;
+    background-color: #007bff; /* Blue */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.variety-card .edit-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.variety-card .variety-card-body label {
+    display: block;
+    margin-bottom: 5px;
+    color: #666;
+}
+
+.variety-card .variety-card-body input[type="number"] {
+    width: calc(100% - 20px); /* Adjust input width */
+    max-width: 200px; /* Limit input width */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.variety-card .variety-card-body button {
+    padding: 10px 20px;
+    background-color: #00cc66; /* Green */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.variety-card .variety-card-body button:hover {
+    background-color: #00994d; /* Darker green on hover */
+}

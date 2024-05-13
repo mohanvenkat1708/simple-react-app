@@ -1,0 +1,54 @@
+/* ProductsAdminPage.css */
+
+.admin-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.admin-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  max-width: 1200px; /* Adjust as needed */
+}
+
+.variety-card {
+  position: relative; /* Position for the edit button */
+  width: 300px; /* Adjust card width as needed */
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+}
+
+.variety-card:hover {
+  transform: translateY(-5px);
+}
+
+.edit-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Add hover effect for the edit button */
+.edit-button:hover {
+  background-color: #0056b3;
+}
+
+.variety-card-list{
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}

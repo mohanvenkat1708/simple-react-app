@@ -1,0 +1,48 @@
+.benefits-container {
+    overflow: hidden;
+    padding: 1rem
+  }
+  
+  .benefits-container h1{
+    text-align: center;
+  }
+  .benefits-list {
+    padding-left: 0;
+    display: flex;
+    justify-content: space-between;
+    list-style: none; /* Remove default list style */
+  }
+  
+  .benefits-list li {
+    width: 22%; /* Adjusted width for better spacing */
+    text-align: center;
+    background-color: #fff; /* White background for each benefit */
+    padding: 20px; /* Add padding for spacing */
+    border-radius: 15px; /* Rounded corners for aesthetic */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+    transition: transform 0.3s ease; /* Smooth transition on hover */
+  }
+  
+  .benefits-list li:hover {
+    transform: translateY(-10px); /* Move up slightly on hover for interactive effect */
+  }
+  
+  .benefits-list li img {
+    width: 70px; /* Adjusted image size */
+    height: 70px; /* Adjusted image size */
+    border-radius: 50%;
+    margin: 0 auto 15px; /* Center image vertically and add margin below */
+  }
+  
+  .benefits-list li h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333; /* Darker color for headings */
+  }
+  
+  .benefits-list li p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666; /* Lighter color for text */
+  }
+  
